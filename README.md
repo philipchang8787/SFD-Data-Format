@@ -1,1 +1,55 @@
 # SFD-Data-Format
+## 服務的URL Path
+
+- 會員模組-登入-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/LogInServlet
+    - ContentType: application/json;charset=UTF-8
+- 會員模組-註冊-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/SignUpServlet
+    - ContentType: application/json;charset=UTF-8
+- 會員模組-切換身份-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/SwitchIdentityServlet
+    - ContentType: application/json;charset=UTF-8
+- 會員模組-切換登入狀態-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/SwitchStatusServlet
+    - ContentType: application/json;charset=UTF-8
+- 菜單模組-查看餐廳-request.json
+    - HTTP Method: GET
+    - URL: https://ntou-sfd.herokuapp.com/ShowRestInfoServlet
+    - ContentType: application/json;charset=UTF-8
+- 菜單模組-查看菜單-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/ShowMenuServlet
+    - ContentType: application/json;charset=UTF-8
+- 菜單模組-計算餐廳時間-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/CalculateDeliveryTimeServlet
+    - ContentType: application/json;charset=UTF-8
+- 菜單模組-計算餐廳時間-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/CalculateDeliveryTimeServlet
+    - ContentType: application/json;charset=UTF-8
+- 訂單模組-食客-送出訂單-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/SendOrderServlet
+    - ContentType: application/json;charset=UTF-8
+- 訂單模組-外送員-查看已接單頁面-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/ShowDeliveryStaffCurrentOrderServlet
+    - ContentType: application/json;charset=UTF-8
+- 訂單模組-食客-查看訂單狀態-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/ShowCommonUserCurrentOrderServlet
+    - ContentType: application/json;charset=UTF-8
+- 訂單模組-食客-查看購買紀錄-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/ShowCommonUserHistoryOrderServlet
+    - ContentType: application/json;charset=UTF-8
+- 訂單模組-外送員-查看購買紀錄-request.json
+    - HTTP Method: Post
+    - URL: https://ntou-sfd.herokuapp.com/ShowDeliveryStaffHistoryOrderServlet
+    - ContentType: application/json;charset=UTF-8
