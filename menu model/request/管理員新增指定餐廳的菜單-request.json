@@ -1,0 +1,24 @@
+{
+    "query":{
+        "command":"add",
+        "what":"menu"
+    },
+    "result": [
+        {
+            "Food_Id": "[SYS]GENERATE",
+            "Food_Name": "薯餅蛋餅",
+            "Rest_Id": "1",
+            "Cost": "35",
+            "Description": "蛋餅包薯餅",
+            "Image":"werfghj"
+        },
+        {
+            "Food_Id": "[SYS]GENERATE",
+            "Food_Name": "蘋果汁",
+            "Rest_Id": "1",
+            "Cost": "20",
+            "Description": "蘋果的汁，濃縮的",
+            "Image":"wesdfdgrfghj"
+        }
+    ]
+}
